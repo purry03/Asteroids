@@ -73,10 +73,6 @@ int main()
 	scoreText.setPosition(250, bannerText.getGlobalBounds().height+10);
 	deathText.setPosition(250, 250);
 
-
-	Asteroid newAsteroid(2, sf::Vector2f(200, 200), sf::Vector2f(0.0f, 0.0f));
-	//activeAsteroids.push_back(newAsteroid);
-
 	while (window.isOpen())
 	{
 		
